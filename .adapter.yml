@@ -1,0 +1,13 @@
+name: chinastock
+description: The china stock index price
+node_identifier: chinastock
+platforms:
+  - Docker
+  - AWS Lambda
+  - GCP Functions
+data_sources:
+  - name: chinastock
+    url: https://47.99.117.182:8080
+parameters:
+  - base
+  - quote
