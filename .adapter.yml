@@ -7,7 +7,7 @@ platforms:
   - GCP Functions
 data_sources:
   - name: chinastock
-    url: http://47.99.117.182:8080
+    url: https://min-api.cryptocompare.com
 parameters:
   - base
   - quote
